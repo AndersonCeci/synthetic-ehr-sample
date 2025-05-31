@@ -35,7 +35,9 @@ This dataset is ideal for:
     "age": 29,
     ...
 }
-
+```
 💡 Want the Full Dataset?
 I’ve generated 1,000+ synthetic EHRs with unique clinical scenarios.
 
+Check it out at 
+https://thewiseo.gumroad.com/l/gipmys
