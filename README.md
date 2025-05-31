@@ -36,3 +36,6 @@ This dataset is ideal for:
     ...
 }
 
+💡 Want the Full Dataset?
+I’ve generated 1,000+ synthetic EHRs with unique clinical scenarios.
+
