@@ -1,6 +1,6 @@
 # 🧬 Synthetic Electronic Health Records (EHR) — Sample Dataset
 
-This is a **free sample of 20 high-quality, LLM-generated synthetic EHRs** in structured JSON format.
+This is a **free sample of 7 high-quality, LLM-generated synthetic EHRs** in structured JSON format.
 
 Each record includes:
 - ✅ Realistic patient demographics
