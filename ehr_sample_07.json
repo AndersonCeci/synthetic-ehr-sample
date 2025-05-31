@@ -1,0 +1,97 @@
+[
+{
+    "patientDemographics": {
+      "patientID": "P123456789",
+      "name": {
+        "first": "Aisha",
+        "last": "Patel"
+      },
+      "age": 34,
+      "gender": "Female",
+      "dateOfBirth": "1989-04-15"
+    },
+    "visitInformation": {
+      "visitID": "V987654321",
+      "visitDate": "2023-10-10",
+      "visitTime": "14:30",
+      "provider": {
+        "name": "Dr. Emily Chen",
+        "npi": "1234567890"
+      }
+    },
+    "chiefComplaint": "Severe headache and nausea",
+    "vitalSigns": {
+      "temperature": "98.6",
+      "bloodPressure": {
+        "systolic": 120,
+        "diastolic": 80
+      },
+      "heartRate": 78,
+      "respiratoryRate": 16,
+      "oxygenSaturation": 98,
+      "height": "64",
+      "weight": "140",
+      "bmi": 24.0
+    },
+    "diagnosis": {
+      "primary": {
+        "ICD10": "G43.909",
+        "description": "Migraine, unspecified, not intractable"
+      },
+      "secondary": []
+    },
+    "medications": [
+      {
+        "name": "Sumatriptan",
+        "dosage": "50 mg",
+        "route": "oral",
+        "frequency": "as needed",
+        "prescribedDate": "2023-10-10",
+        "prescribedBy": "Dr. Emily Chen"
+      }
+    ],
+    "labResults": [
+      {
+        "testName": "Complete Blood Count (CBC)",
+        "results": {
+          "value": "Normal",
+          "unit": "N/A",
+          "referenceRange": "Within normal limits"
+        },
+        "dateOrdered": "2023-10-10",
+        "dateCompleted": "2023-10-10",
+        "status": "completed"
+      }
+    ],
+    "doctorsNotes": [
+      {
+        "date": "2023-10-10",
+        "time": "14:30",
+        "provider": "Dr. Emily Chen",
+        "noteType": "progress",
+        "content": "Patient presents with severe headache and nausea. Vital signs stable. Prescribed Sumatriptan."
+      }
+    ],
+    "procedures": [],
+    "allergies": [
+      {
+        "allergen": "Penicillin",
+        "reaction": "Hives",
+        "severity": "moderate"
+      }
+    ],
+    "followUpInstructions": {
+      "nextAppointment": {
+        "date": "2023-10-24",
+        "provider": "Dr. Emily Chen"
+      },
+      "instructions": [
+        "Take medication as prescribed.",
+        "Keep a headache diary to track frequency and triggers."
+      ],
+      "precautions": [
+        "Avoid known headache triggers such as stress and lack of sleep."
+      ]
+    }
+  }
+  ]

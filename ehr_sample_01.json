@@ -1,0 +1,102 @@
+[
+  {
+    "patientDemographics": {
+      "patientID": "P123456",
+      "name": {
+        "first": "Amina",
+        "last": "Hassan"
+      },
+      "age": 34,
+      "gender": "Female",
+      "dateOfBirth": "1989-05-12"
+    },
+    "visitInformation": {
+      "visitID": "V987654",
+      "visitDate": "2023-10-15",
+      "visitTime": "14:30",
+      "provider": {
+        "name": "Dr. Emily Chen",
+        "npi": "1234567890"
+      }
+    },
+    "chiefComplaint": "Persistent headache and fatigue",
+    "vitalSigns": {
+      "temperature": "98.6",
+      "bloodPressure": {
+        "systolic": 120,
+        "diastolic": 80
+      },
+      "heartRate": 72,
+      "respiratoryRate": 16,
+      "oxygenSaturation": 98,
+      "height": "64",
+      "weight": "150",
+      "bmi": 25.8
+    },
+    "diagnosis": {
+      "primary": {
+        "ICD10": "R51",
+        "description": "Headache"
+      },
+      "secondary": [
+        {
+          "ICD10": "F51.9",
+          "description": "Sleep disorder, unspecified"
+        }
+      ]
+    },
+    "medications": [
+      {
+        "name": "Ibuprofen",
+        "dosage": "200 mg",
+        "route": "oral",
+        "frequency": "every 6 hours as needed",
+        "prescribedDate": "2023-10-15",
+        "prescribedBy": "Dr. Emily Chen"
+      }
+    ],
+    "labResults": [
+      {
+        "testName": "Complete Blood Count",
+        "results": {
+          "value": "Normal",
+          "unit": "",
+          "referenceRange": "Normal range"
+        },
+        "dateOrdered": "2023-10-15",
+        "dateCompleted": "2023-10-16",
+        "status": "completed"
+      }
+    ],
+    "doctorsNotes": [
+      {
+        "date": "2023-10-15",
+        "time": "14:30",
+        "provider": "Dr. Emily Chen",
+        "noteType": "progress",
+        "content": "Patient presents with persistent headache and fatigue. Recommended medication and follow-up if symptoms persist."
+      }
+    ],
+    "procedures": [],
+    "allergies": [
+      {
+        "allergen": "Penicillin",
+        "reaction": "Hives",
+        "severity": "moderate"
+      }
+    ],
+    "followUpInstructions": {
+      "nextAppointment": {
+        "date": "2023-11-15",
+        "provider": "Dr. Emily Chen"
+      },
+      "instructions": [
+        "Take prescribed medication as directed.",
+        "Maintain a sleep diary for review at the next appointment."
+      ],
+      "precautions": [
+        "Avoid known allergens."
+      ]
+    }
+  }
+  ]

@@ -1,0 +1,115 @@
+[ {
+    "patientDemographics": {
+      "patientID": "P123456",
+      "name": {
+        "first": "Amina",
+        "last": "Hassan"
+      },
+      "age": 34,
+      "gender": "Female",
+      "dateOfBirth": "1989-05-14"
+    },
+    "visitInformation": {
+      "visitID": "V987654",
+      "visitDate": "2023-10-01",
+      "visitTime": "14:30",
+      "provider": {
+        "name": "Dr. Emily Chen",
+        "npi": "1234567890"
+      }
+    },
+    "chiefComplaint": "Persistent cough and fatigue",
+    "vitalSigns": {
+      "temperature": "98.6",
+      "bloodPressure": {
+        "systolic": 120,
+        "diastolic": 80
+      },
+      "heartRate": 72,
+      "respiratoryRate": 16,
+      "oxygenSaturation": 98,
+      "height": "65",
+      "weight": "150",
+      "bmi": 24.96
+    },
+    "diagnosis": {
+      "primary": {
+        "ICD10": "J20.9",
+        "description": "Acute bronchitis, unspecified"
+      },
+      "secondary": []
+    },
+    "medications": [
+      {
+        "name": "Albuterol",
+        "dosage": "90 mcg",
+        "route": "Inhalation",
+        "frequency": "As needed",
+        "prescribedDate": "2023-10-01",
+        "prescribedBy": "Dr. Emily Chen"
+      },
+      {
+        "name": "Dextromethorphan",
+        "dosage": "10 mg",
+        "route": "Oral",
+        "frequency": "Every 6 hours as needed",
+        "prescribedDate": "2023-10-01",
+        "prescribedBy": "Dr. Emily Chen"
+      }
+    ],
+    "labResults": [
+      {
+        "testName": "Complete Blood Count (CBC)",
+        "results": {
+          "value": "Normal",
+          "unit": "N/A",
+          "referenceRange": "Normal ranges apply"
+        },
+        "dateOrdered": "2023-10-01",
+        "dateCompleted": "2023-10-01",
+        "status": "completed"
+      },
+      {
+        "testName": "Chest X-Ray",
+        "results": {
+          "value": "No acute findings",
+          "unit": "N/A",
+          "referenceRange": "N/A"
+        },
+        "dateOrdered": "2023-10-01",
+        "dateCompleted": "2023-10-01",
+        "status": "completed"
+      }
+    ],
+    "doctorsNotes": [
+      {
+        "date": "2023-10-01",
+        "time": "14:35",
+        "provider": "Dr. Emily Chen",
+        "noteType": "progress",
+        "content": "Patient presents with a persistent cough for 2 weeks. No fever noted. Prescribed albuterol and dextromethorphan."
+      }
+    ],
+    "procedures": [],
+    "allergies": [
+      {
+        "allergen": "Penicillin",
+        "reaction": "Rash",
+        "severity": "moderate"
+      }
+    ],
+    "followUpInstructions": {
+      "nextAppointment": {
+        "date": "2023-10-15",
+        "provider": "Dr. Emily Chen"
+      },
+      "instructions": [
+        "Continue medications as prescribed.",
+        "Monitor symptoms and return if worsens."
+      ],
+      "precautions": [
+        "Avoid smoking and exposure to irritants."
+      ]
+    }
+  }
+  ]

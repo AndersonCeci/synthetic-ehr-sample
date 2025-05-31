@@ -1,0 +1,128 @@
+[{
+    "patientDemographics": {
+      "patientID": "P123456789",
+      "name": {
+        "first": "Amina",
+        "last": "Khan"
+      },
+      "age": 34,
+      "gender": "Female",
+      "dateOfBirth": "1989-05-14"
+    },
+    "visitInformation": {
+      "visitID": "V987654321",
+      "visitDate": "2023-10-10",
+      "visitTime": "14:30",
+      "provider": {
+        "name": "Dr. Emily Johnson",
+        "npi": "1234567890"
+      }
+    },
+    "chiefComplaint": "Persistent cough and shortness of breath.",
+    "vitalSigns": {
+      "temperature": "98.6",
+      "bloodPressure": {
+        "systolic": 120,
+        "diastolic": 80
+      },
+      "heartRate": 76,
+      "respiratoryRate": 18,
+      "oxygenSaturation": 95,
+      "height": "64",
+      "weight": "150",
+      "bmi": 25.8
+    },
+    "diagnosis": {
+      "primary": {
+        "ICD10": "J44.9",
+        "description": "Chronic obstructive pulmonary disease, unspecified"
+      },
+      "secondary": [
+        {
+          "ICD10": "R05",
+          "description": "Cough"
+        }
+      ]
+    },
+    "medications": [
+      {
+        "name": "Albuterol",
+        "dosage": "90 mcg",
+        "route": "Inhalation",
+        "frequency": "As needed",
+        "prescribedDate": "2023-10-10",
+        "prescribedBy": "Dr. Emily Johnson"
+      },
+      {
+        "name": "Fluticasone",
+        "dosage": "110 mcg",
+        "route": "Inhalation",
+        "frequency": "Twice daily",
+        "prescribedDate": "2023-10-10",
+        "prescribedBy": "Dr. Emily Johnson"
+      }
+    ],
+    "labResults": [
+      {
+        "testName": "Complete Blood Count",
+        "results": {
+          "value": "Normal",
+          "unit": "N/A",
+          "referenceRange": "Normal"
+        },
+        "dateOrdered": "2023-10-08",
+        "dateCompleted": "2023-10-09",
+        "status": "completed"
+      },
+      {
+        "testName": "Chest X-ray",
+        "results": {
+          "value": "No acute disease",
+          "unit": "N/A",
+          "referenceRange": "Normal"
+        },
+        "dateOrdered": "2023-10-08",
+        "dateCompleted": "2023-10-09",
+        "status": "completed"
+      }
+    ],
+    "doctorsNotes": [
+      {
+        "date": "2023-10-10",
+        "time": "14:45",
+        "provider": "Dr. Emily Johnson",
+        "noteType": "progress",
+        "content": "Patient presents with moderate respiratory distress. Coughing persists with minimal sputum production. Recommend follow-up in 2 weeks."
+      }
+    ],
+    "procedures": [
+      {
+        "name": "Pulmonary Function Test",
+        "cptCode": "94010",
+        "date": "2023-10-10",
+        "provider": "Dr. Emily Johnson",
+        "outcome": "Test completed, results pending."
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "Penicillin",
+        "reaction": "Rash",
+        "severity": "moderate"
+      }
+    ],
+    "followUpInstructions": {
+      "nextAppointment": {
+        "date": "2023-10-24",
+        "provider": "Dr. Emily Johnson"
+      },
+      "instructions": [
+        "Use inhaler as prescribed.",
+        "Monitor symptoms and report any worsening."
+      ],
+      "precautions": [
+        "Avoid known allergens."
+      ]
+    }
+  }
+]

@@ -1,0 +1,98 @@
+[
+{
+    "patientDemographics": {
+      "patientID": "P123456",
+      "name": {
+        "first": "Amir",
+        "last": "Khan"
+      },
+      "age": 34,
+      "gender": "Male",
+      "dateOfBirth": "1989-04-15"
+    },
+    "visitInformation": {
+      "visitID": "V789012",
+      "visitDate": "2023-10-10",
+      "visitTime": "14:30",
+      "provider": {
+        "name": "Dr. Emily Tran",
+        "npi": "1234567890"
+      }
+    },
+    "chiefComplaint": "Severe headaches and dizziness",
+    "vitalSigns": {
+      "temperature": "98.6",
+      "bloodPressure": {
+        "systolic": 120,
+        "diastolic": 80
+      },
+      "heartRate": 78,
+      "respiratoryRate": 16,
+      "oxygenSaturation": 98,
+      "height": "72",
+      "weight": "180",
+      "bmi": 24.4
+    },
+    "diagnosis": {
+      "primary": {
+        "ICD10": "G44.1",
+        "description": "Vascular headache, not elsewhere classified"
+      },
+      "secondary": []
+    },
+    "medications": [
+      {
+        "name": "Ibuprofen",
+        "dosage": "600 mg",
+        "route": "oral",
+        "frequency": "every 8 hours as needed",
+        "prescribedDate": "2023-10-10",
+        "prescribedBy": "Dr. Emily Tran"
+      }
+    ],
+    "labResults": [
+      {
+        "testName": "Complete Blood Count (CBC)",
+        "results": {
+          "value": "Normal",
+          "unit": "N/A",
+          "referenceRange": "Normal"
+        },
+        "dateOrdered": "2023-10-10",
+        "dateCompleted": "2023-10-10",
+        "status": "completed"
+      }
+    ],
+    "doctorsNotes": [
+      {
+        "date": "2023-10-10",
+        "time": "14:45",
+        "provider": "Dr. Emily Tran",
+        "noteType": "progress",
+        "content": "Patient presents with severe headaches and dizziness. Neurological exam normal. CBC ordered."
+      }
+    ],
+    "procedures": [],
+    "allergies": [
+      {
+        "allergen": "Penicillin",
+        "reaction": "Rash",
+        "severity": "moderate"
+      }
+    ],
+    "followUpInstructions": {
+      "nextAppointment": {
+        "date": "2023-10-24",
+        "provider": "Dr. Emily Tran"
+      },
+      "instructions": [
+        "Take medications as prescribed.",
+        "Keep a headache diary."
+      ],
+      "precautions": [
+        "Avoid triggers such as bright lights and loud noises."
+      ]
+    }
+  }
+  ]
+  
